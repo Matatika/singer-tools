@@ -17,9 +17,8 @@ setup(name='singer-tools',
       ],
       extras_require={
           'dev': [
-              'ipdb==0.11',
               'pylint==2.5.3',
-              'nose'
+              'pynose'
           ]
       },
       packages=['singertools'],
